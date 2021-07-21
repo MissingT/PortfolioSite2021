@@ -1,0 +1,589 @@
+ /* Desktop */
+.missingT {
+  font-size: 32px;
+}
+
+ .aboutHeaders {
+  font-family: termina,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32pt;
+  margin-left: 10px;
+  color: navy;
+  align-items: center;
+  justify-content: center;
+}
+
+.hey2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+
+.iLike {
+  list-style: none;
+  width: 50%;
+  font-family: termina,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  color: navy;
+  line-height: 64px;
+}
+
+.contact {
+  list-style: none;
+  font-family: termina,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  color: navy;
+  line-height: 64px;
+}
+
+.hey3 {
+width: 400px;
+}
+
+a {
+text-decoration: none;
+color: navy;
+}
+
+.hey1 {
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 80px;
+
+}
+
+#bottomHey {
+  display: flex;
+  margin: 100px 200px 0 280px;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid navy;
+}
+
+
+
+
+.nsaHeader {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 170px;
+  margin-top: 40px;
+  color: navy;
+}
+
+button {
+width: 100px;
+height: 50px;
+border: 2px solid navy;
+background-color: white;
+color: navy;
+font-family: termina,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12pt;
+  margin-right: 10px;  
+}
+
+body {
+  background-image: url(../images/dot-grid.png);
+  cursor: url(../images/cursor.png), auto;
+}
+
+.navBar {
+    display: flex;
+    margin: -10px 0px 0px -28px;
+    width: 700px;  
+    text-decoration: none;
+}
+
+.logo {
+    font-family: termina,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 21px;
+    padding: 40px 40px;
+    cursor: url(../images/cursor_hover.png), auto;
+    border-right: navy 2px solid;
+    border-left: navy 2px solid;
+    border-bottom: navy 2px solid;
+    color: navy;
+    line-height: 90%;
+    margin-left: 100px;
+    margin-bottom: -2px;
+    margin-right: 2px;
+    background-color: white;
+    transition: 0.3s ease;  
+}
+  
+.sideBlue {
+  height: 100%;
+  width: 80px;
+  margin-left: -8px;
+  position: fixed;
+  border-right: navy 2px solid;
+  background-color: white;
+}
+
+.navButtons {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-end;  
+    margin-top: -40px;
+    margin-bottom: -2px;
+    margin-left: -42px;
+    cursor: url(../images/cursor_hover.png), auto;
+}
+
+
+.tab {
+    padding: 45px 40px;
+    font-family: termina,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: navy;
+    border-right: navy 2px solid;
+    border-bottom: navy 2px solid;
+    border-left: navy 2px solid;
+    margin-left: -2px;
+    background-color: white;
+    transition: 0.3s ease; 
+} 
+
+#middleMostnav {
+  background-color: navy;
+  color: white;
+  border-left: white 1px  solid ;
+  border-right: white 1px  solid ;
+  z-index: 1;
+}
+
+#rightMostnav {
+  padding: 45px 40px;
+    font-family: termina,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: navy;
+    border-right: navy 2px solid;
+    border-bottom: navy 2px solid;
+    border-left: navy 2px solid;
+    margin-left: -2px;
+}
+
+  #leftMostnav {
+  background-color: navy;
+  color: white;
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;     
+}
+
+
+.workModal {
+  border: navy solid 1px;
+  width: 320px;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items:flex-start;
+  transition: 0.3s ease;
+  background-color: white;
+  margin-right: 100px;
+  color: navy;
+  cursor: url(../images/cursor_hover.png), auto;
+}
+
+.work {
+  width: 320px;
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  border-bottom: navy 1px solid;
+  color: navy;
+  background-color: navy;
+  vertical-align: bottom;
+}
+
+#noMargin {
+  margin-right: -20px;  
+ }
+
+h1 {
+  font-family: termina,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20pt;
+  margin-left: 10px;
+  margin-right: 60px;  
+}
+
+h2 {
+  font-family: houschka-pro,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  margin: -10px 10px 10px 10px; 
+}
+
+.nsaMobile {
+  display: none;
+}
+
+/* HOVER STATES */
+
+.missingT:hover {
+  font-weight: 700;
+}
+
+button:hover {
+transition: ease 0.3s;
+transform: translate(-5px, -5px);
+box-shadow: 5px 5px 15px rgb(196, 196, 196);
+background-color: navy;
+color: white;
+font-weight: 700;
+}
+
+.logo:hover {
+  background-color: navy;
+  color: whitesmoke;
+  transition: 0.3s ease;
+  border-radius: 0px 0px 0px 0px;
+  border-right: 1px solid white;
+  z-index: 2;
+}
+
+.tab:hover {
+  background-color: navy;
+  color: whitesmoke;
+  border-radius: 0px 0px 0px 0px;
+  
+}
+
+#middleMostnav:hover {
+  background-color: navy;
+  color: white;
+  border-left: white 1px  solid ;
+  z-index: 1;
+}
+
+#rightMostnav:hover {
+  background-color: navy;
+  color: whitesmoke;
+  transition: 0.3s ease;
+  border-radius: 0px 0px 50px 0px;
+}
+
+.workModal:hover {
+  transform: translateY(-20px) scale(105%);
+  box-shadow: 5px 5px 15px rgb(196, 196, 196);
+  background-color: navy;
+  border-radius: 0px 0px 0px 0px;
+  border: 3px solid navy;
+color: white;
+}
+
+.workModal:hover >img {
+  border-radius: 0px 0px 0px 0px;
+  color: white;
+
+}
+.workModal:hover > h1, {
+  color: white;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  color: navy;
+  cursor: url(../images/cursor_hover.png), auto;
+}
+.contactList:hover {
+  transition: 0.3 ease;
+  font-weight: 700;
+  cursor: url(../images/cursor_hover.png), auto;
+}
+
+video:hover {
+  cursor: url(../images/cursor_hover.png), auto;
+}
+
+button:hover {
+  cursor: url(../images/cursor_hover.png), auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+.sideBlue {
+display: none;
+}
+
+  .navBar {
+    display: initial;
+    margin: 0px;
+    width: initial;
+}
+
+.logo {
+  font-family: termina,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  padding: 40px 0px;
+  cursor: url(../images/cursor_hover.png), auto;
+  border-right: navy 2px solid;
+  border-left: navy 2px solid;
+  border-bottom: navy 2px solid;
+  color: navy;
+  line-height: 90%;
+  margin-left: -14px;
+  margin-bottom: -2px;
+  margin-top: -10px;
+  width: 598px;
+  text-align: center;
+  background-color: white;
+  transition: 0.3s ease;
+}
+
+.navButtons {
+align-content: center;
+list-style: none;
+font-size: 32px;
+display: flex;
+flex-direction: column;
+width: 600px;
+text-align: center;
+margin-top: 2px;
+margin-left: -52px;
+cursor: url(../images/cursor_hover.png), auto;
+}
+
+.tab {
+padding: 40px 0px;
+font-family: termina,sans-serif;
+font-weight: 400;
+font-size: 24px;
+font-style: normal;
+color: navy;
+border-right: navy 2px solid;
+border-bottom: navy 2px solid;
+border-left: navy 2px solid;
+transition: 0.3s ease;
+width: 600px;
+}
+
+.tab:active {
+background-color: navy;
+color: whitesmoke;
+border-radius: 0px 0px 0px 0px;
+border-left: 1px white solid;
+
+}
+
+#rightMostnav {
+padding: 45px 0px;
+font-family: termina,sans-serif;
+font-weight: 400;
+font-size: 24px;
+font-style: normal;
+color: navy;
+border-right: navy 2px solid;
+border-bottom: navy 2px solid;
+border-left: navy 2px solid;
+width: 600px;
+}
+
+#rightMostnav:active {
+background-color: navy;
+color: whitesmoke;
+transition: 0.3s ease;
+border-radius: 0px 0px 0px 0px; 
+}
+
+#leftMostnav:active {
+background-color: navy;
+color: whitesmoke;
+transition: 0.3s ease;
+border-radius: 0px 0px 0px 0px; 
+border-bottom: 2px white solid;
+
+}
+
+.logo:active {
+background-color: navy;
+color: whitesmoke;
+transition: 0.3s ease;
+border-radius: 0px 0px 0px 0px;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+}
+
+.workModal {
+border: navy solid 1px;
+width: 500px;
+height: 670px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+transition: 0.3s ease;
+background-color: white;
+margin: 40px 0px;
+color: navy;
+cursor: url(../images/cursor_hover.png), auto;
+}
+
+.workModal:active {
+transform: translateY(-20px) scale(105%);
+box-shadow: 5px 5px 15px rgb(196, 196, 196);
+background-color: navy;
+border-radius: 0px 0px 0px 0px;
+border: 3px solid navy;
+
+}
+
+.workModal:active >img {
+border-radius: 0px 0px 0px 0px;
+
+}
+.workModal:active > h1, p {
+color: white;
+
+}
+
+.workModal:active > p {
+color: white;
+}
+
+.work {
+width: 500px;
+height: 500px;
+object-fit: cover;
+object-position: 50% 0%;
+border-bottom: navy 1px solid;
+background-color: navy;
+vertical-align: bottom;
+}
+
+p {
+color: navy;
+font-family: houschka-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 16px;
+margin: -10px 10px 10px 10px;
+}
+
+.aboutHeaders {
+font-family: termina,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 32pt;
+margin-left: 10px;
+color: navy;
+align-items: center;
+justify-content: center;
+width: 400px;
+}
+
+a {
+text-decoration: none;
+}
+
+#bottomHey {
+display: flex;
+flex-direction: column;
+margin: 40px;
+align-items: flex-start;
+justify-content: center;
+border: 1px solid navy;
+}
+
+.hey2 {
+display: flex;
+margin-left: 40px;
+flex-direction: column;
+}
+
+.iLike {
+list-style: none;
+font-family: termina,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 18pt;
+color: navy;
+line-height: 64px;
+width: 320px;
+}
+
+.hey3 {
+margin-left: 40px;
+}
+
+.contact {
+  list-style: none;
+  font-family: termina,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  color: navy;
+  line-height: 64px;
+}
+
+.nsaResponsiveredesign {
+  margin-right: 0px;
+  font-size: 32px;
+}
+
+button {
+  margin-right: 0px;
+  width: 300px;
+  height: 100px;
+  font-size: 18pt;
+  margin: 5px;
+}
+
+video {
+  width: 500px;
+  margin-top: 54px;
+}
+
+.nsaResponsiveredesign {
+  font-size: 42px;
+  margin: 35px;
+}
+
+.nsaHeader {
+  padding: 30px;
+  text-align: center;
+}
+
+}
