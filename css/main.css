@@ -212,7 +212,7 @@ section {
   background-color: white;
   margin-right: 100px;
   color: navy;
-  cursor: url(../images/cursor_hover.png), auto;
+   cursor: url(../images/cursor_hover.png), auto;
 }
 
 .work {
@@ -302,7 +302,7 @@ font-weight: 700;
   background-color: navy;
   border-radius: 0px 0px 0px 0px;
   border: 3px solid navy;
-color: white;
+  color: white !important;
 }
 
 .workModal:hover >img {
@@ -310,15 +310,15 @@ color: white;
   color: white;
 
 }
-.workModal:hover > h1, {
+.workModal:hover > h1 {
   color: white;
   
 }
 
 a:hover {
   text-decoration: underline;
-  color: navy;
   cursor: url(../images/cursor_hover.png), auto;
+  color: white;
 }
 .contactList:hover {
   transition: 0.3 ease;
