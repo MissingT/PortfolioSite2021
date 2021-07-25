@@ -6,17 +6,6 @@ $(".logo").on("click", function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 $(document).ready(function(){
 	$("#desktopButt").click(function(){
     	$(".nsaMobile").hide()
@@ -27,3 +16,9 @@ $(document).ready(function(){
     $(".nsaLaptop").hide();
   });
 });
+
+
+function fade() {
+  $('.loader').fadeOut("slow");
+  }
+  setTimeout(fade, 4000);

@@ -1,5 +1,14 @@
  /* Desktop */
-.missingT {
+.loader {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  width: 98vw;
+  height: auto;
+  margin-top: -90px;
+}
+
+ .missingT {
   font-family: termina,sans-serif;
   font-weight: 300;
   font-style: normal;
